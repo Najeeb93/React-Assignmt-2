@@ -1,6 +1,8 @@
 
 
 function Cart() {
+   
+    
     return (
         <div className="flex justify-center">
             <div><li className="list-none p-2">MacbookPro - $100000</li>
