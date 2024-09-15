@@ -2,7 +2,7 @@
 
 function Item(props) {
     return (
-        <div className="w-[100%] flex justify-center mt-7">
+        <div className="w-[100%] flex justify-center mt-4">
         <div>
             <h4 className="text-4xl font-bold">{props.name}</h4>
             <p className="text-3xl p-6">Price: ${props.price}</p>

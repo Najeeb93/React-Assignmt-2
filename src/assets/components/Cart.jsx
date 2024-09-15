@@ -2,10 +2,11 @@
 
 function Cart() {
     return (
-        <div>
-            <li>MacbookPro - $100000</li>
+        <div className="flex justify-center">
+            <div><li className="list-none p-2">MacbookPro - $100000</li>
 
-            <h5>Total Bill: $</h5>
+            <h5 className="font-bold ">Total Bill: $</h5>
+            </div>
         </div>
     )
 };
