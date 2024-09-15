@@ -1,3 +1,13 @@
 import { createContext } from "react";
 
-const conterContext = createContext();
+ export const conterContext = createContext();
+
+export const CounterProvider = (props) => {
+    
+    return (
+        <conterContext.Provider>
+            
+        </conterContext.Provider>
+    )
+
+}
