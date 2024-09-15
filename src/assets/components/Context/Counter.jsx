@@ -6,7 +6,7 @@ export const CounterProvider = (props) => {
     
     const [count, setCount] = useState(0);
     return (
-        <conterContext.Provider value={{count}}>
+        <conterContext.Provider value={{count, setCount}}>
             {props.children}
 
         </conterContext.Provider>

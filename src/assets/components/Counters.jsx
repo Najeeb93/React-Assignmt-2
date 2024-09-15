@@ -1,6 +1,9 @@
 import React from "react";
+import { useContext } from "react";
+import { conterContext } from "./Context/Counter";
 
 function Counters() {
+    
     return (
     
         <div>
