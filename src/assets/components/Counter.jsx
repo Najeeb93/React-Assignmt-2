@@ -1,6 +1,6 @@
 import React from "react";
 
-function Counter() {
+function Counters() {
     return (
     
         <div>
@@ -10,4 +10,4 @@ function Counter() {
     )
 }
 
-export default Counter;
+export default Counters;
