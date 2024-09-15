@@ -6,11 +6,6 @@ import { CounterProvider } from './assets/components/Context/Counter.jsx'
  
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CounterProvider>
     <App />
-
-    </CounterProvider>
-
-    
   </StrictMode>,
 )

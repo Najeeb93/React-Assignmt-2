@@ -11,20 +11,7 @@ import { conterContext } from './assets/components/Context/Counter'
 
 function App() {
 
-  const counterState = useContext(conterContext)
-  
-  
-
   return (
-<div>
-  <div>
-  <div className="flex  justify-center mt-4"> <h1 className="text-2xl bg-slate-400 font-bold shadow-xl">Counter {counterState.count}</h1></div></div>
-<Counters/>
-<Counters/>
-<Counters/>
-<Counters/>
-</div>
-     
   )
 }
 
