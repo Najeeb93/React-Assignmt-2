@@ -12,6 +12,8 @@ function App() {
 
   return (
 <div>
+  <div>
+  <div className="flex  justify-center mt-4"> <h1 className="text-2xl">Counter 0</h1></div></div>
 <Counter/>
 <Counter/>
 <Counter/>
