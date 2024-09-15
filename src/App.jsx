@@ -11,11 +11,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex justify-center mt-3'>
-      <h1 className='text-2xl'>Count is 0</h1>
-      <div>
-      <Counter/></div>
-    </div>
+<div>
+  <Counter/>
+</div>
      
   )
 }
