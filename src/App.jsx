@@ -18,7 +18,7 @@ function App() {
   return (
 <div>
   <div>
-  <div className="flex  justify-center mt-4"> <h1 className="text-2xl">Counter {conterContext.count}</h1></div></div>
+  <div className="flex  justify-center mt-4"> <h1 className="text-2xl">Counter {counterState.count}</h1></div></div>
 <Counters/>
 <Counters/>
 <Counters/>
