@@ -6,7 +6,8 @@ export const CounterProvider = (props) => {
     
     return (
         <conterContext.Provider>
-            
+            {props.children}
+
         </conterContext.Provider>
     )
 
